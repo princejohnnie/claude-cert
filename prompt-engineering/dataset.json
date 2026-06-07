@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Parse an AWS S3 bucket name and region from an S3 URI in the format 's3://bucket-name/key' and return them as a JSON object",
+    "format": "json"
+  },
+  {
+    "task": "Write a Python function that takes an AWS IAM policy document (as a dictionary) and returns a list of all the actions (effect: Allow) that are granted",
+    "format": "python"
+  },
+  {
+    "task": "Create a regex pattern that validates AWS EC2 instance IDs (format: i-followed by 8 or 17 hexadecimal characters)",
+    "format": "regex"
+  }
+]

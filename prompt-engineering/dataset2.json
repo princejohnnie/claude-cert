@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Write a Python function that extracts all S3 bucket names from an AWS CloudFormation template dictionary and returns them as a list.",
+    "format": "python",
+    "solution_criteria": "Function should iterate through the template resources, identify S3 bucket resources (type: 'AWS::S3::Bucket'), and return a list of bucket names. Should handle cases where bucket names are defined in the 'BucketName' property or auto-generated."
+  },
+  {
+    "task": "Create a JSON policy document that allows an IAM user to read objects from a specific S3 bucket named 'my-data-bucket' and list its contents, but denies all other actions.",
+    "format": "json",
+    "solution_criteria": "Valid JSON IAM policy with correct structure including Version, Statement array, Effect set to 'Allow', Principal or Resource field targeting the S3 bucket, and Actions limited to s3:GetObject and s3:ListBucket. Should not grant permissions beyond read/list operations."
+  },
+  {
+    "task": "Write a regular expression that matches valid AWS IAM role names according to AWS naming conventions (alphanumeric characters, hyphens, and underscores, 1-64 characters).",
+    "format": "regex",
+    "solution_criteria": "Regex should match strings containing only letters, numbers, hyphens, and underscores with a length between 1 and 64 characters. Should reject strings with special characters, spaces, or length outside the valid range."
+  }
+]
