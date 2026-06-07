@@ -1,0 +1,18 @@
+{
+    "companyAnnouncements": [
+        "Welcome to my Claude Code certification project. Review projecy info in the README.md file.",
+        "This project demonstrates Claude best practices necessary for uniformity and efficient token usage."
+    ],
+
+    "strictKnownMarketplaces": [
+        {
+            "source": "github",
+            "repo": "acme-corp/approved-plugins"
+        },
+        {
+            "source": "npm",
+            "package": "@acme-corp/compliance-plugins"
+        }
+    ]
+
+}
